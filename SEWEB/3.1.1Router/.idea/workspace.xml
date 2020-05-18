@@ -15,14 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="all_MaxSet.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/run/all_MaxSet.py">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="835">
-              <caret line="741" column="22" selection-start-line="741" selection-start-column="22" selection-end-line="741" selection-end-column="22" />
-              <folding>
-                <element signature="e#6891#14348#0" />
-              </folding>
+            <state relative-caret-position="1188">
+              <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -362,13 +359,13 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10063224" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50213677" side_tool="true" weight="0.2863388" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786323" weight="0.46103895" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786323" weight="0.46103895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24893162" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32896176" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24945295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -404,20 +401,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_case/Members_006_PPPoEAuth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1855">
-          <caret line="347" column="35" lean-forward="true" selection-start-line="347" selection-start-column="35" selection-end-line="347" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/wifiConfig_002_RFConfigPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="53" column="107" selection-start-line="53" selection-start-column="107" selection-end-line="53" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/WIFIconfig_001_configGuide.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -659,9 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="e#77#131#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,10 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="835">
           <caret line="237" column="47" selection-start-line="237" selection-start-column="38" selection-end-line="237" selection-end-column="47" />
-          <folding>
-            <element signature="e#979#2673#0" />
-            <element signature="e#2715#5122#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,11 +666,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/test_case/cloud_001_basic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-        </state>
+        <state relative-caret-position="-972" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run/all_MaxSet.py">
@@ -704,6 +678,18 @@
           <folding>
             <element signature="e#6891#14348#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
         </state>
       </provider>
     </entry>
