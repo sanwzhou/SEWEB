@@ -1,0 +1,11 @@
+if ((navigator.userAgent.match(/(iPhone|iPod|Android|Windows Phone)/i))) {
+    if(window.location.href.indexOf("lapin.ithome.com")>0)
+    {
+      var reg = new RegExp(/lapin.ithome.com\/html\/.*?\/(\d+).htm/i); var r = window.location.href.match(reg); location.replace("http://m.ithome.com/html/" + r[1] + ".htm");
+    }
+    else if (window.location.href.indexOf("/html/")>0)
+    {
+        var reg = new RegExp(/www.ithome.com\/html\/.*?\/(\d+).htm/i); var r = window.location.href.match(reg); location.replace("https://m.ithome.com/html/" + r[1] + ".htm"); 
+    }
+}
+if (self != top) top.location.href = window.location.href

@@ -1,0 +1,1 @@
+document.write('<iframe src="//www.ithome.com/block/topnews.htm" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" class="hotnews"></iframe>')

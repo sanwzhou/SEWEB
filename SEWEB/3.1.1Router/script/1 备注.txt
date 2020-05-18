@@ -1,0 +1,15 @@
+1、SE_config_import：上传配置文件
+配置文件位置及命令：
+D:\python\PycharmProjects\SE3.0\ArouteSoftConfig\系统配置3333.xml
+
+2、SE_organizational_group_import：导入组织架构 128个组
+本目录下： 组织成员测试-128个组.csv
+
+3、SE_organizational_group_import_new  测试导入“刚导出”的组织架构
+D:\python\PycharmProjects\SE3.0\ArouteSoftConfig\组织成员3333.csv
+
+4、SE_organizational_group_import_empty 测试导入“空”配置的组织架构
+D:\python\PycharmProjects\SE3.0\ArouteSoftConfig\组织成员测试-空.csv
+
+
+changeMacToBack.bat：是手动写入了pc的有线网卡地址，并不是自动的

@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0040)https://www.ithome.com/block/topnews.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+
+<title>新闻排行榜</title>
+<script type="text/javascript" src="./7hot.js.下载"></script>
+<link href="./block.css" rel="stylesheet" type="text/css">
+<style type="text/css" abt="234"></style><script>//console.log('a')
+</script><script>//remove 17173 video ad
+doAdblock();
+function doAdblock(){
+    (function() {
+        function A() {}
+        A.prototype = {
+            rules: {
+                '17173_in':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/PreloaderFile(Customer)?\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173_in_20150522.swf"
+                },
+                '17173_out':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/PreloaderFileFirstpage\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173_out_20150522.swf"
+                },
+                '17173_live':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/Player_stream(_firstpage)?\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173_stream_20150522.swf"
+                },
+                '17173_live_out':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/Player_stream_(custom)?Out\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173.out.Live.swf"
+                }
+            },
+            _done: null,
+            get done() {
+                if(!this._done) {
+                    this._done = new Array();
+                }
+                return this._done;
+            },
+            addAnimations: function() {
+                var style = document.createElement('style');
+                style.type = 'text/css';
+                style.innerHTML = 'object,embed{\
+                -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;\
+                -ms-animation-duration:.001s;-ms-animation-name:playerInserted;\
+                -o-animation-duration:.001s;-o-animation-name:playerInserted;\
+                animation-duration:.001s;animation-name:playerInserted;}\
+                @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}';
+                document.getElementsByTagName('head')[0].appendChild(style);
+            },
+            animationsHandler: function(e) {
+                if(e.animationName === 'playerInserted') {
+                    this.replace(e.target);
+                }
+            },
+            replace: function(elem) {
+                if(this.done.indexOf(elem) != -1) return;
+                this.done.push(elem);
+                var player = elem.data || elem.src;
+                if(!player) return;
+                var i, find, replace = false;
+                for(i in this.rules) {
+                    find = this.rules[i]['find'];
+                    if(find.test(player)) {
+                        replace = this.rules[i]['replace'];
+                        if('function' === typeof this.rules[i]['preHandle']) {
+                            this.rules[i]['preHandle'].bind(this, elem, find, replace, player)();
+                        }else{
+                            this.reallyReplace.bind(this, elem, find, replace)();
+                        }
+                        break;
+                    }
+                }
+            },
+            reallyReplace: function(elem, find, replace) {
+                elem.data && (elem.data = elem.data.replace(find, replace)) || elem.src && ((elem.src = elem.src.replace(find, replace)) && (elem.style.display = 'block'));
+                var b = elem.querySelector("param[name='movie']");
+                this.reloadPlugin(elem);
+            },
+            reloadPlugin: function(elem) {
+                var nextSibling = elem.nextSibling;
+                var parentNode = elem.parentNode;
+                parentNode.removeChild(elem);
+                var newElem = elem.cloneNode(true);
+                this.done.push(newElem);
+                if(nextSibling) {
+                    parentNode.insertBefore(newElem, nextSibling);
+                } else {
+                    parentNode.appendChild(newElem);
+                }
+            },
+            init: function() {
+                var handler = this.animationsHandler.bind(this);
+                document.body.addEventListener('webkitAnimationStart', handler, false);
+                document.body.addEventListener('msAnimationStart', handler, false);
+                document.body.addEventListener('oAnimationStart', handler, false);
+                document.body.addEventListener('animationstart', handler, false);
+                this.addAnimations();
+            }
+        };
+        new A().init();
+    })();
+}
+//remove baidu search ad
+if(document.URL.indexOf('www.baidu.com') >= 0){
+    if(document && document.getElementsByTagName && document.getElementById && document.body){
+        var aa = function(){
+            var all = document.body.querySelectorAll("#content_left div,#content_left table");
+            for(var i = 0; i < all.length; i++){
+                if(/display:\s?(table|block)\s!important/.test(all[i].getAttribute("style"))){all[i].style.display= "none";all[i].style.visibility='hidden';}
+            }
+            all = document.body.querySelectorAll('.result.c-container[id="1"]');
+            //if(all.length == 1) return;
+            for(var i = 0; i < all.length; i++){
+                if(all[i].innerHTML && all[i].innerHTML.indexOf('广告')>-1){
+                    all[i].style.display= "none";all[i].style.visibility='hidden';
+                }
+            }
+        }
+        aa();
+        document.getElementById('wrapper_wrapper').addEventListener('DOMSubtreeModified',aa)
+    };
+}
+//remove sohu video ad
+if (document.URL.indexOf("tv.sohu.com") >= 0){
+    if (document.cookie.indexOf("fee_status=true")==-1){document.cookie='fee_status=true'};
+}
+//remove 56.com video ad
+if (document.URL.indexOf("56.com") >= 0){
+    if (document.cookie.indexOf("fee_status=true")==-1){document.cookie='fee_status=true'};
+}
+//fore iqiyi enable html5 player function
+if (document.URL.indexOf("iqiyi.com") >= 0){
+    if (document.cookie.indexOf("player_forcedType=h5_VOD")==-1){
+        document.cookie='player_forcedType=h5_VOD'
+        if(localStorage.reloadTime && Date.now() - parseInt(localStorage.reloadTime)<60000){
+            console.log('no reload')
+        }else{
+            location.reload()
+            localStorage.reloadTime = Date.now();
+        }
+    }
+}
+</script><style type="text/css">object,embed{                -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;                -ms-animation-duration:.001s;-ms-animation-name:playerInserted;                -o-animation-duration:.001s;-o-animation-name:playerInserted;                animation-duration:.001s;animation-name:playerInserted;}                @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}</style></head>
+
+<body marginwidth="0" marginheight="0">
+<div class="right_con post_right_con ">
+	<div class="top_news">
+      	<div class="bar">
+                <ul>
+                     <li id="must" class="current" onmousemove="must()">24小时最热</li>
+                    <li id="hot7" onmousemove="hot7()">7天最热</li>
+                    <li id="comm7" onmousemove="comm7()" class="">7天热评</li>
+                    <li id="month" onmousemove="month()" class="">月榜</li>
+
+                </ul>
+            </div>
+            <div id="con1" class="list" style="display: none; ">
+            	<ul>   
+                    <li><span>01</span><a title="斗鱼宣布封禁主播陈一发：将对所有主播展开爱国教育" target="_blank" href="https://www.ithome.com/html/it/373923.htm">斗鱼宣布封禁主播陈一发：将对所有主播展开爱国教育</a></li><li><span>02</span><a title="双Turbo技术亮相：荣耀Note 10新品发布会图文直播" target="_blank" href="http://live.ithome.com/item/373749.htm">双Turbo技术亮相：荣耀Note 10新品发布会图文直播</a></li><li><span>03</span><a title="斗鱼封禁了陈一发，但谁来救救被扭曲的三观" target="_blank" href="https://www.ithome.com/html/it/374252.htm">斗鱼封禁了陈一发，但谁来救救被扭曲的三观</a></li><li><span>04</span><a title="网友一夜之间“一无所有”，支付宝回应：先补偿给用户" target="_blank" href="https://www.ithome.com/html/it/374714.htm">网友一夜之间“一无所有”，支付宝回应：先补偿给用户</a></li><li><span>05</span><a title="21.8元一年，芒果 TV 会员年卡限时抢购！（8月3日返场）" target="_blank" href="https://www.ithome.com/html/it/374197.htm">21.8元一年，芒果 TV 会员年卡限时抢购！（8月3日返场）</a></li><li><span>06</span><a title="卢本伟、冯提莫再到陈一发儿，斗鱼也有钱变坏了" target="_blank" href="https://www.ithome.com/html/it/374144.htm">卢本伟、冯提莫再到陈一发儿，斗鱼也有钱变坏了</a></li><li><span>07</span><a title="中国移动推“真正全国不限量”尊享套餐：含香港台湾澳门流量通话" target="_blank" href="https://www.ithome.com/html/it/374483.htm">中国移动推“真正全国不限量”尊享套餐：含香港台湾澳门流量通话</a></li><li><span>08</span><a title="马航MH370事件最新进展：失联家属获终极报告，共计822页" target="_blank" href="https://www.ithome.com/html/it/373566.htm">马航MH370事件最新进展：失联家属获终极报告，共计822页</a></li><li><span>09</span><a title="涉黄平台1-5元出售淫秽小视频，创始人1年获利购房5套" target="_blank" href="https://www.ithome.com/html/it/374167.htm">涉黄平台1-5元出售淫秽小视频，创始人1年获利购房5套</a></li><li><span>10</span><a title="斗鱼封禁主播陈一发：直播行业更应“谨言慎行”" target="_blank" href="https://www.ithome.com/html/it/373940.htm">斗鱼封禁主播陈一发：直播行业更应“谨言慎行”</a></li><li><span>11</span><a title="还要手撕多少个吴亦凡，虎扑才能上市？" target="_blank" href="https://www.ithome.com/html/it/373676.htm">还要手撕多少个吴亦凡，虎扑才能上市？</a></li><li><span>12</span><a title="网友被不法分子盯上，一夜之间一无所有" target="_blank" href="https://www.ithome.com/html/it/374678.htm">网友被不法分子盯上，一夜之间一无所有</a></li>
+                </ul>
+            </div>
+            <div id="con2" class="list" style="display: none; ">
+            	<ul>          
+                    <li><span>01</span><a title="双Turbo技术亮相：荣耀Note 10新品发布会图文直播" target="_blank" href="http://live.ithome.com/item/373749.htm">双Turbo技术亮相：荣耀Note 10新品发布会图文直播</a></li><li><span>02</span><a title="斗鱼宣布封禁主播陈一发：将对所有主播展开爱国教育" target="_blank" href="https://www.ithome.com/html/it/373923.htm">斗鱼宣布封禁主播陈一发：将对所有主播展开爱国教育</a></li><li><span>03</span><a title="华为余承东：麒麟980将遥遥领先骁龙845和苹果芯" target="_blank" href="https://www.ithome.com/html/android/374534.htm">华为余承东：麒麟980将遥遥领先骁龙845和苹果芯</a></li><li><span>04</span><a title="斗鱼封禁了陈一发，但谁来救救被扭曲的三观" target="_blank" href="https://www.ithome.com/html/it/374252.htm">斗鱼封禁了陈一发，但谁来救救被扭曲的三观</a></li><li><span>05</span><a title="华为余承东自称“每次吹牛都超额完成”：手机明年做到全球第一" target="_blank" href="https://www.ithome.com/html/android/374553.htm">华为余承东自称“每次吹牛都超额完成”：手机明年做到全球第一</a></li><li><span>06</span><a title="斗鱼封禁主播陈一发：直播行业更应“谨言慎行”" target="_blank" href="https://www.ithome.com/html/it/373940.htm">斗鱼封禁主播陈一发：直播行业更应“谨言慎行”</a></li><li><span>07</span><a title="官宣！魅族16屏幕指纹做到3000元" target="_blank" href="https://www.ithome.com/html/android/374865.htm">官宣！魅族16屏幕指纹做到3000元</a></li><li><span>08</span><a title="国家药监局：武汉生物不合格百白破疫苗属偶发" target="_blank" href="https://www.ithome.com/html/it/374044.htm">国家药监局：武汉生物不合格百白破疫苗属偶发</a></li><li><span>09</span><a title="网友被不法分子盯上，一夜之间一无所有" target="_blank" href="https://www.ithome.com/html/it/374678.htm">网友被不法分子盯上，一夜之间一无所有</a></li><li><span>10</span><a title="拼多多创始人黄峥：广大人群对山寨货有需求" target="_blank" href="https://www.ithome.com/html/it/373961.htm">拼多多创始人黄峥：广大人群对山寨货有需求</a></li><li><span>11</span><a title="中国男子乘高铁大声打电话，英主持人录像发社交媒体引热议" target="_blank" href="https://www.ithome.com/html/it/374351.htm">中国男子乘高铁大声打电话，英主持人录像发社交媒体引热议</a></li><li><span>12</span><a title="诺基亚离王者归来，只差一款成功的旗舰机" target="_blank" href="https://www.ithome.com/html/it/374758.htm">诺基亚离王者归来，只差一款成功的旗舰机</a></li>
+                </ul>
+            </div>
+            <div id="con3" class="list" style="display: none; ">
+            	<ul>
+                    <li><span>01</span><a title="斗鱼宣布封禁主播陈一发：将对所有主播展开爱国教育" target="_blank" href="https://www.ithome.com/html/it/373923.htm">斗鱼宣布封禁主播陈一发：将对所有主播展开爱国教育</a></li><li><span>02</span><a title="双Turbo技术亮相：荣耀Note 10新品发布会图文直播" target="_blank" href="http://live.ithome.com/item/373749.htm">双Turbo技术亮相：荣耀Note 10新品发布会图文直播</a></li><li><span>03</span><a title="谁买走了拼多多的山寨电器？买家秀中找到答案" target="_blank" href="https://www.ithome.com/html/it/373139.htm">谁买走了拼多多的山寨电器？买家秀中找到答案</a></li><li><span>04</span><a title="斗鱼封禁了陈一发，但谁来救救被扭曲的三观" target="_blank" href="https://www.ithome.com/html/it/374252.htm">斗鱼封禁了陈一发，但谁来救救被扭曲的三观</a></li><li><span>05</span><a title="网友一夜之间“一无所有”，支付宝回应：先补偿给用户" target="_blank" href="https://www.ithome.com/html/it/374714.htm">网友一夜之间“一无所有”，支付宝回应：先补偿给用户</a></li><li><span>06</span><a title="改变世界的锤子TNT终于被你们笑话死了" target="_blank" href="https://www.ithome.com/html/it/370898.htm">改变世界的锤子TNT终于被你们笑话死了</a></li><li><span>07</span><a title="5500mAh大电池：小米Max 3新品发布会图文直播" target="_blank" href="http://live.ithome.com/item/371339.htm">5500mAh大电池：小米Max 3新品发布会图文直播</a></li><li><span>08</span><a title="卫生间不雅视频、“椰子灰”冰淇淋……抖音怎么越来越像油腻大叔" target="_blank" href="https://www.ithome.com/html/it/370561.htm">卫生间不雅视频、“椰子灰”冰淇淋……抖音怎么越来越像油腻大叔</a></li><li><span>09</span><a title="2988元起！微软Surface Go国行售价公布" target="_blank" href="https://www.ithome.com/html/win10/369710.htm">2988元起！微软Surface Go国行售价公布</a></li><li><span>10</span><a title="你的隐私正在被中国特供版Flash偷窥！解决教程奉上！" target="_blank" href="https://www.ithome.com/html/it/370033.htm">你的隐私正在被中国特供版Flash偷窥！解决教程奉上！</a></li><li><span>11</span><a title="21.8元一年，芒果 TV 会员年卡限时抢购！（8月3日返场）" target="_blank" href="https://www.ithome.com/html/it/374197.htm">21.8元一年，芒果 TV 会员年卡限时抢购！（8月3日返场）</a></li><li><span>12</span><a title="卢本伟、冯提莫再到陈一发儿，斗鱼也有钱变坏了" target="_blank" href="https://www.ithome.com/html/it/374144.htm">卢本伟、冯提莫再到陈一发儿，斗鱼也有钱变坏了</a></li> 
+                </ul>
+            </div>
+            <div id="con4" class="list">
+            	<ul>
+                <li><span>01</span><a title="李楠调侃：严格说魅族16发布会不用开了，但还请大家配合一下..." target="_blank" href="https://www.ithome.com/html/android/374884.htm">李楠调侃：严格说魅族16发布会不用开了，但还请大家配合一下...</a></li><li><span>02</span><a title="纯图福利：IT之家在ChinaJoy上拍到的漂亮小姐姐们" target="_blank" href="https://www.ithome.com/html/it/374890.htm">纯图福利：IT之家在ChinaJoy上拍到的漂亮小姐姐们</a></li><li><span>03</span><a title="Essential Phone跳楼大甩卖，价格腰斩送全套配件" target="_blank" href="https://www.ithome.com/html/android/374873.htm">Essential Phone跳楼大甩卖，价格腰斩送全套配件</a></li><li><span>04</span><a title="魅蓝暗示3000元的魅族16搭载骁龙710，李楠：不要瞎说大实话" target="_blank" href="https://www.ithome.com/html/android/374933.htm">魅蓝暗示3000元的魅族16搭载骁龙710，李楠：不要瞎说大实话</a></li><li><span>05</span><a title="吃鸡更流畅！华为P20 Pro正式更新吓人技术GPU Turbo" target="_blank" href="https://www.ithome.com/html/android/374950.htm">吃鸡更流畅！华为P20 Pro正式更新吓人技术GPU Turbo</a></li><li><span>06</span><a title="外媒评史上最糟糕的十大CPU：奔3/奔4，骁龙810入榜" target="_blank" href="https://www.ithome.com/html/it/374897.htm">外媒评史上最糟糕的十大CPU：奔3/奔4，骁龙810入榜</a></li><li><span>07</span><a title="苹果iPhone 9/X（6.1英寸）谍照！背面单摄面积似乎变大" target="_blank" href="https://www.ithome.com/html/iphone/374908.htm">苹果iPhone 9/X（6.1英寸）谍照！背面单摄面积似乎变大</a></li><li><span>08</span><a title="吉利领克03真车线下实拍：尾部很“战斗”" target="_blank" href="https://www.ithome.com/html/auto/374935.htm">吉利领克03真车线下实拍：尾部很“战斗”</a></li><li><span>09</span><a title="华为使用美国远古版本操作系统，英国政府疑虑安全性" target="_blank" href="https://www.ithome.com/html/it/374877.htm">华为使用美国远古版本操作系统，英国政府疑虑安全性</a></li><li><span>10</span><a title="《西虹市首富》票房破20亿，口碑下滑但依旧强势" target="_blank" href="https://www.ithome.com/html/it/374946.htm">《西虹市首富》票房破20亿，口碑下滑但依旧强势</a></li><li><span>11</span><a title="央视采访“电竞国家队”，队长Uzi：曾被家人到网吧抓" target="_blank" href="https://www.ithome.com/html/game/374892.htm">央视采访“电竞国家队”，队长Uzi：曾被家人到网吧抓</a></li><li><span>12</span><a title="游戏有什么好玩的，ChinaJoy当然是看妹子咯" target="_blank" href="https://www.ithome.com/html/it/374930.htm">游戏有什么好玩的，ChinaJoy当然是看妹子咯</a></li>
+                </ul>
+            </div>
+        </div>
+ </div>
+
+
+</body></html>

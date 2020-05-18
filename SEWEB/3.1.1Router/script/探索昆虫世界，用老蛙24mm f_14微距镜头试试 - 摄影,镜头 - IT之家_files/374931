@@ -1,0 +1,103 @@
+
+var gradestr = '           <div class="newsgrade"><div class="text">             <span class="sd">文章价值：<span class="ss">4.5</span>分</span>            <span class="star">                 <span class="rate-score">                     <span class="score-value-no score-value-45"><em></em></span>               </span>            </span>           <span class="m">105人打分</span> </div>         <div class="bt">              <span class="s" id="sgrade0" );><a>无价值</a><br><div>10</div></span>             <span class="s" id="sgrade1"><a>还可以</a><br><div>5</div></span>            <span class="s" id="sgrade2"><a>有价值</a><br><div>90</div></span>         </div>     </div>';
+var selgrade=-1;
+
+ function ShowMessage(message)
+    {
+        var x=window.x||{}; 
+        x.creat=function(t,b,c,d){ 
+        this.t=t; 
+        this.b=b; 
+        this.c=c; 
+        this.d=d; 
+        this.op=1; 
+        this.div=document.createElement("div"); 
+        this.div.style.height="50px"; 
+        this.div.style.width="270px"; 
+        this.div.style.background="#d22222"; 
+        this.div.style.position="absolute"; 
+        this.div.style.left="50%"; 
+        this.div.style.marginLeft = "-100px";
+        this.div.style.marginTop = "-50px";
+        this.div.innerText = message;
+        this.div.style.fontSize = "12px";
+        this.div.style.lineHeight = this.div.style.height;
+        this.div.style.textAlign="center"; 
+        this.div.style.fontWeight="bold"; 
+        this.div.style.color = "#fff";
+        this.div.style.zIndex = "1000";
+        //this.div.style.top=(($(window).height() - $('.className').outerHeight())/2 + $(document).scrollTop() +"px"); 
+        this.div.style.top=($(".newsgrade").offset().top-50 +"px"); 
+        document.body.appendChild(this.div); 
+        this.run(); 
+        } 
+        x.creat.prototype={ 
+        run:function(){ 
+        var me=this; 
+        this.t++; 
+        this.q=setTimeout(function(){me.run()},25) 
+        if(this.t==this.d){ 
+        clearTimeout(me.q); 
+        setTimeout(function(){me.alpha();},1000); 
+        } 
+        }, 
+        alpha:function(){ 
+        var me=this; 
+        if("\v"=="v"){ 
+        this.div.style.filter="progid:DXImageTransform.Microsoft.Alpha(opacity="+this.op*100+")"; 
+        this.div.style.filter="alpha(opacity="+this.op*100+")"; 
+        ;} 
+        else{this.div.style.opacity=this.op} 
+        this.op-=0.02; 
+        this.w=setTimeout(function(){me.alpha()},25) 
+        if(this.op<=0){ 
+        clearTimeout(this.w); 
+        document.body.removeChild(me.div); 
+        } 
+        } 
+        } 
+        new x.creat(1,50,25,30);
+    }
+
+
+     function displayGrade(data) { 
+         if(data[0].ok == 5)
+         {
+             popWin.showWin("400", "620", "软媒通行证登录", "https://my.ruanmei.com/?source=ithome");
+             retrun;
+         }
+
+            ShowMessage(data[0].msg); 
+            if(data[0].ok ==1)
+            {
+                $(".newsgrade span").unbind("click");   //删除空间内的事件
+                $(".newsgrade #sgrade"+selgrade+" div").text(Math.round( $(".newsgrade #sgrade"+selgrade+" div").text())+1);
+            }
+
+         } 
+
+
+
+$(function(){ 
+
+    $("#sgrade0").click(function(){ 
+       btngrade(0);
+       $(this).addClass("ac");
+    }); 
+    $("#sgrade1").click(function(){ 
+       btngrade(1);
+       $(this).addClass("ac");
+    }); 
+    $("#sgrade2").click(function(){ 
+       btngrade(2);
+       $(this).addClass("ac");
+    }); 
+}); 
+
+
+function btngrade(grade) 
+{
+       selgrade=grade;
+       var url = "//dyn.ithome.com/ithome/gradeHandler.ashx?newsid=374931&act=grade&callback=displayGrade&grade="+grade;
+       $.getScript(url);
+}

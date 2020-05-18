@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/common/loginRoute.py" line="70" />
+    <bookmark url="file://$PROJECT_DIR$/pages/SysMonitor_001_sysStaticPage.py" line="14" mnemonic="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d12aef8f-c2fd-4884-8f30-611b695b14fc" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="all_MaxSet.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run/all_MaxSet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="835">
+              <caret line="741" column="22" selection-start-line="741" selection-start-column="22" selection-end-line="741" selection-end-column="22" />
+              <folding>
+                <element signature="e#6891#14348#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>errversion</find>
+      <find>config.ini</find>
+      <find>txBands2</find>
+      <find>roleA</find>
+      <find>role2A</find>
+      <find>/*[@id=&quot;1&quot;]/div/div/div[1]/table/tbody/tr[65]/td[2]/span</find>
+      <find>/div/div/div[1]/table/tbody/tr[65]/td[2]/span</find>
+      <find>staticRp</find>
+      <find>portTateLANp</find>
+      <find>support:</find>
+      <find>PPPoENotice</find>
+      <find>self.assertEqual(title1, messages, msg='通告未显示')</find>
+      <find>OA</find>
+      <find>//*[@id=&quot;divright&quot;]/table/tbody/tr[5]/td[3]/select/option[2]</find>
+      <find>languageA</find>
+      <find>镜像</find>
+      <find>Monitor Port</find>
+      <find>Monitorport</find>
+      <find>iqiyi</find>
+      <find>爱奇艺</find>
+      <find>AppUpgradeP</find>
+      <find>test_001_policylib</find>
+      <find>for</find>
+      <find>list_tips,nodata</find>
+      <find>test_enableLoginWeb</find>
+      <find>click</find>
+      <find>notice</find>
+      <find>时钟</find>
+      <find>ntpServer</find>
+      <find>if</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>swconfig.test_</replace>
+      <replace>b'UTT(</replace>
+      <replace>changeStaticIP3_34duan.bat</replace>
+      <replace>25/34/26</replace>
+      <replace>swconfig.test_getWANSpeed(self)</replace>
+      <replace>pptpl2tp.</replace>
+      <replace>192.168.34.39</replace>
+      <replace>print(</replace>
+      <replace>未达到</replace>
+      <replace>value</replace>
+      <replace>self.driver</replace>
+      <replace>wifi.</replace>
+      <replace />
+      <replace>self.driver.quit()</replace>
+      <replace>self.driver.quit</replace>
+      <replace>SoftVersion1</replace>
+      <replace>oldversion1</replace>
+      <replace>APoldversion</replace>
+      <replace>parameterExcel</replace>
+      <replace>pingTestIP(</replace>
+      <replace>common.pingTest</replace>
+      <replace>pingTestIP</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pages/sysConfig_007_CloudServePage.py" />
+        <option value="$PROJECT_DIR$/test_case/Members_007_WebAuth.py" />
+        <option value="$PROJECT_DIR$/test_case/Members_006_PPPoEAuth.py" />
+        <option value="$PROJECT_DIR$/test_case/sysConfig_004_LanAccessControl.py" />
+        <option value="$PROJECT_DIR$/test_case/Parameter_023_userManagement.py" />
+        <option value="$PROJECT_DIR$/test_case/NetworkConfig_003_DHCPserver.py" />
+        <option value="$PROJECT_DIR$/pages/SysMonitor_001_sysStaticPage.py" />
+        <option value="$PROJECT_DIR$/pages/LoginYunPage.py" />
+        <option value="$PROJECT_DIR$/test_case/cloud_001_basic.py" />
+        <option value="$PROJECT_DIR$/common/ParametersFile.py" />
+        <option value="$PROJECT_DIR$/test_case/PortMapping_003_natRule.py" />
+        <option value="$PROJECT_DIR$/test_case/sysConfig_000_Getready.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/test_case/Parameter_020_BandwidthManagement.py" />
+        <option value="$PROJECT_DIR$/pages/NetConfig_007_SwitchConfigPage.py" />
+        <option value="$PROJECT_DIR$/test_case/Parameter_021_switchConfig.py" />
+        <option value="$PROJECT_DIR$/test_case/AdditionalTest.py" />
+        <option value="$PROJECT_DIR$/run/all_MoreSet.py" />
+        <option value="$PROJECT_DIR$/run/Minimalset.py" />
+        <option value="$PROJECT_DIR$/run/ProductModel_test.py" />
+        <option value="$PROJECT_DIR$/pages/SwitchConfig_Page.py" />
+        <option value="$PROJECT_DIR$/test_case/NetworkConfig_006_DDNSconfig.py" />
+        <option value="$PROJECT_DIR$/test_case/NetworkSharing_003_ftpServerSmaba.py" />
+        <option value="$PROJECT_DIR$/test_case/NetworkConfig_001_2WAN.py" />
+        <option value="$PROJECT_DIR$/test_case/NetworkConfig_001_3WAN.py" />
+        <option value="$PROJECT_DIR$/test_case/NetworkConfig_001_4WAN.py" />
+        <option value="$PROJECT_DIR$/test_case/NetworkConfig_001_5WAN.py" />
+        <option value="$PROJECT_DIR$/pages/NetConfig_001_WANpage.py" />
+        <option value="$PROJECT_DIR$/test_case/NetworkConfig_001_1WAN.py" />
+        <option value="$PROJECT_DIR$/test_case/Firewall_002_URLFilter.py" />
+        <option value="$PROJECT_DIR$/common/swNumC.py" />
+        <option value="$PROJECT_DIR$/test_case/Parameter_100_Parameter.py" />
+        <option value="$PROJECT_DIR$/test_case/SysMonitor_001_sysStatic.py" />
+        <option value="$PROJECT_DIR$/pages/basepage.py" />
+        <option value="$PROJECT_DIR$/test_case/NetworkConfig_002_PortRate.py" />
+        <option value="$PROJECT_DIR$/pages/wifiConfig_002_RFConfigPage.py" />
+        <option value="$PROJECT_DIR$/test_case/WIFIconfig_001_configGuide.py" />
+        <option value="$PROJECT_DIR$/test_case/sysConfig_006_softwareUpdata.py" />
+        <option value="$PROJECT_DIR$/pages/Loginpage.py" />
+        <option value="$PROJECT_DIR$/common/loginRoute.py" />
+        <option value="$PROJECT_DIR$/common/ReadConfig.py" />
+        <option value="$PROJECT_DIR$/pages/Firewall_001_ACLPage.py" />
+        <option value="$PROJECT_DIR$/test_case/Firewall_003_Keywordfilter.py" />
+        <option value="$PROJECT_DIR$/common/GetExcelValue.py" />
+        <option value="$PROJECT_DIR$/run/all_MaxSet.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/common/pingTest.py" />
+        <option value="$PROJECT_DIR$/config/configE.ini" />
+        <option value="$PROJECT_DIR$/config/configT.ini" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/common/send_mail.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="56" />
+    <option name="y" value="189" />
+    <option name="width" value="1302" />
+    <option name="height" value="1036" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="3.1.1Router" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3.1.1Router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3.1.1Router" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3.1.1Router" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/python/SEWEB/3.1.1Router/common/ReadConfig.py&#10;.&#9;ACTION&#9;ShowSettingsWithAddedPattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\SEWEB\3.1.1Router\config" />
+      <recent name="D:\python\SEWEB\3.1.1Router\test_case" />
+      <recent name="D:\python\SEWEB\3.1.1Router\run" />
+      <recent name="D:\python\SEWEB\3.1.1Router\common" />
+      <recent name="D:\python\SEWEB\3.1.1Router\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\SEWEB\3.1.1Router\test_case" />
+      <recent name="D:\python\SEWEB\3.1.1Router\pages" />
+      <recent name="D:\python\SEWEB\3.1.1Router\run" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.pingTest">
+    <configuration name="loginYUN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="3.1.1Router" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loginYUN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="pingTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="3.1.1Router" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/pingTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="3.1.1Router" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests for Firewall_003_Keywordfilter.Keywordfilter" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="3.1.1Router" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Firewall_003_Keywordfilter.Keywordfilter&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for Firewall_003_Keywordfilter.Keywordfilter.test_Keywordfilter" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="3.1.1Router" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Firewall_003_Keywordfilter.Keywordfilter.test_Keywordfilter&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests for Firewall_003_Keywordfilter.Keywordfilter" />
+      <item itemvalue="Python tests.Unittests for Firewall_003_Keywordfilter.Keywordfilter.test_Keywordfilter" />
+      <item itemvalue="Python.loginYUN" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.pingTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pingTest" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.loginYUN" />
+        <item itemvalue="Python tests.Unittests for Firewall_003_Keywordfilter.Keywordfilter.test_Keywordfilter" />
+        <item itemvalue="Python tests.Unittests for Firewall_003_Keywordfilter.Keywordfilter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d12aef8f-c2fd-4884-8f30-611b695b14fc" name="Default" comment="" />
+      <created>1543392218986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543392218986</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_sysConfig_003_AccessPolicy_AccessPolicy_test_001_AccessMode - 2020.03.16 at 17h 49m 08s.xml">
+      <configuration name="Unittests for sysConfig_003_AccessPolicy.AccessPolicy.test_001_AccessMode" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_sysConfig_003_AccessPolicy_AccessPolicy_test_001_AccessMode - 2020.03.16 at 17h 51m 21s.xml">
+      <configuration name="Unittests for sysConfig_003_AccessPolicy.AccessPolicy.test_001_AccessMode" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_sysConfig_003_AccessPolicy_AccessPolicy_test_001_AccessMode - 2020.03.16 at 18h 01m 43s.xml">
+      <configuration name="Unittests for sysConfig_003_AccessPolicy.AccessPolicy.test_001_AccessMode" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Firewall_003_Keywordfilter_Keywordfilter - 2020.03.20 at 16h 34m 46s.xml">
+      <configuration name="Unittests for Firewall_003_Keywordfilter.Keywordfilter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Firewall_003_Keywordfilter_Keywordfilter_test_Keywordfilter - 2020.03.20 at 16h 36m 27s.xml">
+      <configuration name="Unittests for Firewall_003_Keywordfilter.Keywordfilter.test_Keywordfilter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Firewall_003_Keywordfilter_Keywordfilter_test_Keywordfilter - 2020.03.20 at 16h 37m 24s.xml">
+      <configuration name="Unittests for Firewall_003_Keywordfilter.Keywordfilter.test_Keywordfilter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Firewall_003_Keywordfilter_Keywordfilter_test_Keywordfilter - 2020.03.20 at 16h 38m 37s.xml">
+      <configuration name="Unittests for Firewall_003_Keywordfilter.Keywordfilter.test_Keywordfilter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Firewall_003_Keywordfilter_Keywordfilter_test_Keywordfilter - 2020.03.20 at 16h 39m 20s.xml">
+      <configuration name="Unittests for Firewall_003_Keywordfilter.Keywordfilter.test_Keywordfilter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Firewall_003_Keywordfilter_Keywordfilter_test_Keywordfilter - 2020.03.20 at 17h 04m 36s.xml">
+      <configuration name="Unittests for Firewall_003_Keywordfilter.Keywordfilter.test_Keywordfilter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Firewall_003_Keywordfilter_Keywordfilter_test_Keywordfilter - 2020.03.20 at 17h 09m 31s.xml">
+      <configuration name="Unittests for Firewall_003_Keywordfilter.Keywordfilter.test_Keywordfilter" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10063224" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50213677" side_tool="true" weight="0.2863388" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786323" weight="0.46103895" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24893162" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32896176" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24945295" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_case/SysMonitor_001_sysStatic.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_case/SysMonitor_001_sysStatic.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_case/SysMonitor_001_sysStatic.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="82" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_case/Members_006_PPPoEAuth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1855">
+          <caret line="347" column="35" lean-forward="true" selection-start-line="347" selection-start-column="35" selection-end-line="347" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/wifiConfig_002_RFConfigPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="53" column="107" selection-start-line="53" selection-start-column="107" selection-end-line="53" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/WIFIconfig_001_configGuide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="289" column="20" selection-start-line="289" selection-start-column="20" selection-end-line="289" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Parameter_021_switchConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/all_MoreSet.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/AdditionalTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Firewall_002_URLFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="130" column="43" selection-start-line="130" selection-start-column="43" selection-end-line="130" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/sysConfig_006_softwareUpdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="129" column="31" lean-forward="true" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/actionManage_003_actionManage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/NetworkConfig_003_DHCPserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="287" column="41" selection-start-line="287" selection-start-column="35" selection-end-line="287" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="91" column="48" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/sysConfig_001_ManagementPolicyPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/sysConfig_003_AccessPolicy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/PerformanceIndex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="142" column="76" selection-start-line="142" selection-start-column="76" selection-end-line="142" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/loginRoute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6019">
+          <caret line="366" column="41" lean-forward="true" selection-start-line="366" selection-start-column="41" selection-end-line="366" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Firewall_001_ACLPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginYUN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Parameter_012_SysManage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Firewall_003_Keywordfilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CapPic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/GetExcelValue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/GetRouteCPU.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/GetWanNum.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Getparameters.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/ParametersFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/ReadConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/swconfig2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/SoftwareReplace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1123">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/swconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/swNumC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/mv1250GWv3.2.0-190912-101645_20200320_163529.log" />
+    <entry file="file://$PROJECT_DIR$/logs/mv1250GWv3.2.0-190912-101645_20200320_163718.log" />
+    <entry file="file://$PROJECT_DIR$/common/call_FireFox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2657" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/report_TL-BWR-21v3.2.1-200316-113925版本2020-03-16 23_32_02_性能参数核对&amp;周小集测试报告_result.html" />
+    <entry file="file://$PROJECT_DIR$/pages/ConfigGuidepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1091">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/备注.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://I:/ZSW/BaiduYunDownload/桌面/一些脚本/python/telnet_reboot.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/NetworkConfig_001_2WAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Firewall_001_IPFilter.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/AC_001_ExpansionSwitch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/configE2.ini" />
+    <entry file="file://$PROJECT_DIR$/config/configT.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/configE.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/send_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <element signature="e#77#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pingTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/NetworkConfig_006_DDNSconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="237" column="47" selection-start-line="237" selection-start-column="38" selection-end-line="237" selection-end-column="47" />
+          <folding>
+            <element signature="e#979#2673#0" />
+            <element signature="e#2715#5122#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/LogGen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/all_MaxSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="741" column="22" selection-start-line="741" selection-start-column="22" selection-end-line="741" selection-end-column="22" />
+          <folding>
+            <element signature="e#6891#14348#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

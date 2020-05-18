@@ -1,0 +1,146 @@
+[0124/203835.311:ERROR:process_info.cc(359)] UncheckedAllocate
+[0124/205129.974:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir24012_25525\Crashpad\reports\94e8cb63-6a43-4104-9c56-4b4c4cf33ccb.dmp: 系统找不到指定的路径。 (0x3)
+[0124/205129.978:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0124/205129.999:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir6888_6445\Crashpad\reports\c15433ed-e222-480f-a017-19a426427b21.dmp: 系统找不到指定的路径。 (0x3)
+[0124/205130.010:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0124/205133.267:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir12752_8769\Crashpad\reports\b01791ef-81ea-47f3-bd89-d107fca7f17b.dmp: 系统找不到指定的路径。 (0x3)
+[0124/205133.315:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0124/205254.206:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir9200_6152\Crashpad\reports\8ab98435-11fe-4710-a247-8a53e3a80aad.dmp: 系统找不到指定的路径。 (0x3)
+[0124/205254.207:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0124/205307.965:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir29036_31190\Crashpad\reports\c1511700-435c-45ab-b8e0-50965bcb992e.dmp: 系统找不到指定的路径。 (0x3)
+[0124/205307.991:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0124/235024.719:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir32544_17016\Crashpad\reports\79e62f6a-2ebd-4637-87fb-57b9f3ca4701.dmp: 系统找不到指定的路径。 (0x3)
+[0124/235024.720:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0124/235030.338:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir32544_17016\Crashpad\reports\9f74cc9a-9720-426b-9606-9cfc46c58500.dmp: 系统找不到指定的路径。 (0x3)
+[0124/235030.338:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0214/200457.681:ERROR:process_info.cc(359)] UncheckedAllocate
+[0221/205918.235:ERROR:process_info.cc(359)] UncheckedAllocate
+[0222/190532.616:ERROR:process_info.cc(359)] UncheckedAllocate
+[0307/220523.848:ERROR:process_info.cc(359)] UncheckedAllocate
+[0307/221027.548:ERROR:process_info.cc(359)] UncheckedAllocate
+[0312/224547.816:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0312/225828.439:ERROR:process_info.cc(359)] UncheckedAllocate
+[0312/231210.386:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir37136_26084\Crashpad\reports\4b277f8d-bc0d-4776-811e-476a276a5605.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)
+[0312/232252.357:ERROR:process_info.cc(359)] UncheckedAllocate
+[0312/232507.046:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir32040_4625\Crashpad\reports\3e0ce6d2-2180-40f9-a90a-52bc74069dd0.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)
+[0314/220201.971:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/222731.096:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/223300.014:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/223334.819:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/223857.784:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/223909.539:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/223909.550:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/223909.579:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/223909.595:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/223909.600:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/224214.483:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/224223.829:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/224224.586:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/224238.287:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/224238.903:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/224239.141:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/224239.743:ERROR:process_info.cc(359)] UncheckedAllocate
+[0314/224252.667:ERROR:process_info.cc(359)] UncheckedAllocate
+[0315/211716.384:ERROR:process_info.cc(359)] UncheckedAllocate
+[0315/211717.731:ERROR:process_info.cc(359)] UncheckedAllocate
+[0315/211724.976:ERROR:process_info.cc(359)] UncheckedAllocate
+[0315/211725.054:ERROR:process_info.cc(359)] UncheckedAllocate
+[0315/211740.023:ERROR:process_info.cc(359)] UncheckedAllocate
+[0315/211740.874:ERROR:process_info.cc(359)] UncheckedAllocate
+[0315/211740.901:ERROR:process_info.cc(359)] UncheckedAllocate
+[0315/211741.015:ERROR:process_info.cc(359)] UncheckedAllocate
+[0315/211742.264:ERROR:process_info.cc(359)] UncheckedAllocate
+[0315/211745.370:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0315/211745.371:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0315/211745.371:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0315/211745.371:ERROR:exception_snapshot_win.cc(88)] thread ID 27792 not found in process
+[0315/212008.596:ERROR:process_info.cc(359)] UncheckedAllocate
+[0315/212523.542:ERROR:process_info.cc(359)] UncheckedAllocate
+[0315/213642.649:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/033704.868:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/033720.617:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/034226.481:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/034744.237:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/034840.647:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/130008.688:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/130658.158:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/130658.162:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/130701.387:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/130804.708:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/130915.343:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/130915.365:ERROR:process_reader_win.cc(242)] ReadMemory at 0x293216eff80 of 512 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[0323/130915.365:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
+[0323/130915.366:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir23720_9337\Crashpad\reports\59c63862-d255-4366-93d4-d2c4b5a1a872.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)
+[0323/130945.276:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/131053.756:ERROR:process_info.cc(359)] UncheckedAllocate
+[0323/131657.438:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0325/213839.568:ERROR:process_info.cc(359)] UncheckedAllocate
+[0326/011759.942:ERROR:process_info.cc(359)] UncheckedAllocate
+[0411/000814.682:ERROR:process_info.cc(359)] UncheckedAllocate
+[0411/000858.763:ERROR:process_info.cc(359)] UncheckedAllocate
+[0411/000906.849:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir2876_4207\Crashpad\reports\4026250a-9128-4868-9fc4-a60a4576ef7b.dmp: 系统找不到指定的路径。 (0x3)
+[0411/000906.932:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0411/000907.357:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir24768_12942\Crashpad\reports\aa7b6a94-def7-4c83-94de-ededcbae4a4a.dmp: 系统找不到指定的路径。 (0x3)
+[0411/000907.361:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0411/000909.063:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir24720_14677\Crashpad\reports\d445914a-edb0-41a8-ae4c-46b762d73dff.dmp: 系统找不到指定的路径。 (0x3)
+[0411/000909.129:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0411/000909.135:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir17880_4715\Crashpad\reports\e7c33e1f-5016-433f-9d3e-2fab4044dbeb.dmp: 系统找不到指定的路径。 (0x3)
+[0411/000909.152:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0411/000909.191:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir12220_15095\Crashpad\reports\49a160d5-ddcb-4c6f-9ccc-aa214917fcb1.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)
+[0411/000911.012:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir9552_31495\Crashpad\reports\57cd3520-742d-471b-9277-44d6f3f37b9c.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)
+[0411/000911.359:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir17884_23428\Crashpad\reports\344db912-8184-422e-87a9-87246cdfee11.dmp: 系统找不到指定的路径。 (0x3)
+[0411/000911.361:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0411/000916.584:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir26140_18375\Crashpad\reports\d148ab1e-6ec8-4568-8031-01618d29a0b5.dmp: 系统找不到指定的路径。 (0x3)
+[0411/000916.589:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0411/001235.123:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir35660_32485\Crashpad\reports\95164990-9d34-4f17-b993-a4fff7261183.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)
+[0412/235646.724:ERROR:process_info.cc(359)] UncheckedAllocate
+[0412/235729.624:ERROR:process_info.cc(359)] UncheckedAllocate
+[0412/235730.309:ERROR:process_info.cc(359)] UncheckedAllocate
+[0412/235730.578:ERROR:process_info.cc(359)] UncheckedAllocate
+[0412/235754.706:ERROR:process_info.cc(359)] UncheckedAllocate
+[0413/000900.741:ERROR:process_info.cc(359)] UncheckedAllocate
+[0413/000900.744:ERROR:process_info.cc(359)] UncheckedAllocate
+[0413/000900.771:ERROR:process_info.cc(359)] UncheckedAllocate
+[0413/123159.608:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir24148_14660\Crashpad\reports\71362442-8026-4f6d-94a0-b388ba9ca843.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)
+[0413/123238.873:ERROR:process_info.cc(359)] UncheckedAllocate
+[0413/123256.404:ERROR:process_info.cc(359)] UncheckedAllocate
+[0413/123348.987:ERROR:process_info.cc(359)] UncheckedAllocate
+[0413/234211.520:ERROR:process_info.cc(359)] UncheckedAllocate
+[0413/234214.422:ERROR:process_info.cc(359)] UncheckedAllocate
+[0413/234416.688:ERROR:process_info.cc(359)] UncheckedAllocate
+[0413/234736.599:ERROR:process_info.cc(359)] UncheckedAllocate
+[0413/234750.925:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir24036_28195\Crashpad\reports\abb91cc2-3372-499c-8138-cedfc246be42.dmp: 系统找不到指定的路径。 (0x3)
+[0413/234750.940:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0413/234813.891:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir13192_50\Crashpad\reports\f45f0564-cb1f-4e17-b139-55ac7c482b58.dmp: 系统找不到指定的路径。 (0x3)
+[0413/234813.894:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0413/235254.424:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir29048_1059\Crashpad\reports\4b8e5c1d-9796-495a-a752-84bd26f0a42c.dmp: 系统找不到指定的路径。 (0x3)
+[0413/235254.441:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0413/235255.071:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir13624_29293\Crashpad\reports\44410979-01ba-4c40-93e1-6244999c9a10.dmp: 系统找不到指定的路径。 (0x3)
+[0413/235255.075:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0413/235259.262:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir6536_31767\Crashpad\reports\ee566722-86ef-4abb-ba37-6d1eed5ab5e5.dmp: 系统找不到指定的路径。 (0x3)
+[0413/235259.267:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0413/235300.361:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir13192_50\Crashpad\reports\2a62d9db-f82d-4cb4-92e1-8fc429442a70.dmp: 系统找不到指定的路径。 (0x3)
+[0413/235300.361:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0413/235313.851:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir13972_11201\Crashpad\reports\2a0c61f9-c4fd-4eba-ac25-86b4ec549995.dmp: 系统找不到指定的路径。 (0x3)
+[0413/235313.857:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0413/235408.958:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir29048_1059\Crashpad\reports\9bf8f48f-f5fd-40a4-b9d1-c83f8e27d447.dmp: 系统找不到指定的路径。 (0x3)
+[0413/235408.958:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0413/235408.963:ERROR:file_io_win.cc(170)] CreateFile C:\Users\swzhou\AppData\Local\Temp\scoped_dir32128_5139\Crashpad\reports\b2cbe1df-73cf-43c6-90d2-b1667543f820.dmp: 系统找不到指定的路径。 (0x3)
+[0413/235408.965:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0416/225340.832:FATAL:thread_win.cc(25)] : 系统资源不足，无法完成请求的服务。 (0x5AA)
+[0416/232327.621:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0416/233536.370:ERROR:crashpad_client_win.cc(491)] CreateProcess: 页面文件太小，无法完成操作。 (0x5AF)
+[0416/233751.774:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0416/234107.809:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0416/234214.065:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0416/235010.051:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0417/002346.227:ERROR:session_end_watcher.cc(141)] RegisterClass: 参数错误。 (0x57)
+[0417/002346.232:FATAL:exception_handler_server.cc(331)] : 系统资源不足，无法完成请求的服务。 (0x5AA)
+[0417/002704.852:ERROR:crashpad_client_win.cc(491)] CreateProcess: 页面文件太小，无法完成操作。 (0x5AF)
+[0417/002811.177:ERROR:crashpad_client_win.cc(491)] CreateProcess: 页面文件太小，无法完成操作。 (0x5AF)
+[0417/002916.304:FATAL:thread_win.cc(25)] : 页面文件太小，无法完成操作。 (0x5AF)
+[0417/003024.050:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0417/003024.058:ERROR:crash_report_database_win.cc(569)] CreateDirectory C:\Users\swzhou\AppData\Local\Temp\scoped_dir46404_23347\Crashpad: 系统找不到指定的路径。 (0x3)
+[0417/003346.223:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0417/010819.551:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0417/010925.630:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports

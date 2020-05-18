@@ -1,0 +1,32 @@
+call 火狐、映射、AP管理查看AP配置 中的程序连接地址 不生效
+AP005 升级中 有包含上传型号的exe脚本、2.6.3/2.6.4页面定位、密码等
+软件升级中定位不到上传框？
+
+
+更换测试pc，大环境不变
+1、ide插件 见“3.1.1RouteProject_190305.jpg”
+2、config 中pc mac，pcNetworkID，syslog改wireshark路径
+3、bat脚本
+4、upnp中修改迅雷路径，
+5、电脑建PPPoE拨号，指定拨号的命名为"adsl"
+6、HTMLTestRunner.py放在python安装目录lib下
+
+4、AP及配置上传exe脚本 (目录相同则不需更改)
+5、config 中 server mac、AP版本、AP name等
+6、sw相连 接口
+7、call 火狐中目录相同则不需要更改
+8、server 开3389、evering 开ftp、http
+9、另外一台路由器，设置wan口固定IP、开远程 做vpn server
+10、需上层网关 开启pppoe拨号功能，并配置PPPoE账号密码 111  222 333 444 555
+11、包含测试主机至少2台客户端，需从路由器获取到ip（黑名单等会用到，如有AP则不需要另外dhcp client）
+12、新测试pc 注意要把tftp32运行一下 防火墙点允许，如：端口映射的udp69
+
+修改lan口需要注意
+1、config中修改：
+	config中lan口地址   RouteUrl、host
+	修改同网段的ip  1.39 batSameIP 
+	交换机ip switchURL
+2、server ip --要电脑上修改
+3、交换机vlan1IP --要交换机后台修改
+4、bat脚本要修改 - 16网段已加判断
+
